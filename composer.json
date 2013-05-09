@@ -3,7 +3,7 @@
 	"type": "silverstripe-module",
 	"description": "Access static files from external (sub)-domains.",
 	"homepage": "https://github.com/joernroeder/silverstripe-external-assets",
-	"license": "MIT",
+	"license": "BSD-3-Clause",
 	"keywords": ["silverstripe", "external", "files"],
 	"authors": [
 		{

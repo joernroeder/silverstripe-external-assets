@@ -17,5 +17,5 @@
 	"extra": {
 		"installer-name": "external-assets",
 		"installer-paths": "external-assets"
-    },
+    }
 }

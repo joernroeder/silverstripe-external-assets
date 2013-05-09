@@ -1,0 +1,19 @@
+{
+	"name": "joernroeder/silverstripe-external-assets",
+	"type": "silverstripe-module",
+	"description": "Access static files from external (sub)-domains.",
+	"homepage": "https://github.com/joernroeder/silverstripe-external-assets",
+	"license": "MIT",
+	"keywords": ["silverstripe", "external", "files"],
+	"authors": [
+		{
+			"name": "Jörn Röder",
+			"homepage": "http://joernroeder.de"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"composer/installers": "*",
+		"silverstripe/framework": "3.1.*"
+	}
+}

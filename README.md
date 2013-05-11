@@ -13,6 +13,10 @@ Set up your `config.yml` with the following options:
 The final URL is assembled with the SilverStripe domain.
 - __external_points_to_assets__: Indicates if the domain points to the assets folder, and it can be removed from the URL.
 
+### Assets via sub-domain
+
+With the following Configuration your assets will be loaded from a sub-domain: `protocol://static.yourdomain.com/imageName.jpg`
+
 ```
 ---
 Name: SubdomainAssets
@@ -21,6 +25,10 @@ ExternalAssetsConfig:
   external_name: 'static'
   external_points_to_assets: true
 ```
+
+### Access via external domain
+
+To load the assets from a different domain, the following configuration can be used and the file will be accessible at the following URL: `protocol://bar.foo.domain/assets/imageName.jpg`
 
 ```
 ---
@@ -31,13 +39,11 @@ ExternalAssetsConfig:
   external_points_to_assets: false
 ```
 
----
-
 ## Todo
+
 
 - add support for regular files
 - add support for javascript and css files
 
----
 
 ## Have fun!
